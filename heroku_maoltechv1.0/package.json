@@ -1,0 +1,35 @@
+{
+  "name": "maoltech",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^3.21.2",
+    "express-session": "^1.14.0",
+    "hjs": "0.0.4",
+    "jasmine": "^2.4.1",
+    "less-middleware": "0.1.12",
+    "meddelare-express": "^1.0.1",
+    "mongodb": "1.3.10",
+    "underscore": "1.4.4",
+    "connect":"^3.4.1",
+    "serve-favicon":"^2.3.0",
+    "multer":"^1.1.0",
+    "method-override":"^2.3.6"
+  },
+  "description": "MVC site dedicated to technology",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "author": "John Mulhall @johnmlhll",
+  "license": "ISC",
+  "keywords": [
+    "mvc",
+    "node"
+  ]
+}

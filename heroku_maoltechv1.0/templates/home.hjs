@@ -1,0 +1,59 @@
+<!--home page render in html-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{title}}</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+  <div class="container">
+    <!--navivation part of the home page-->
+    <nav>
+      <div class="content">
+        <a href="/" class="logo">
+          <img src="/images/logoMaoltechSmall.jpg" alt="maoltech">
+        </a>
+        <ul class="menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/blog">Blog</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contacts">Contact</a></li>
+        </ul>
+        <br class="clear" />
+      </div>
+    </nav>
+    <!--home page content-->
+    <div class="home">
+      <h1>Maoltech
+        <small><i>Using our passion to get you ahead...</i></small>
+      </h1>
+      <div class="teaser">
+        <div class="content">
+          <img src="/images/teaser-main.jpg" alt="" class="home-teaser-image"/>
+          <h2>{{bannerTitle}}</h2>
+          <p>{{bannerText}}</p>
+          <div class="home-teaser-icons">
+            <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/ntlXsOdYnR8" frameborder="0" allowfullscreen></iframe>
+            <br class="clear" />
+          </div>
+        </div>
+      </div>
+    <div class="blog-articles">
+      <div class="content">
+          {{{blogArticles}}}
+      </div>
+      <br class="clear" />
+    </div>
+  </div>
+      <!--footer and copyright info-->
+      <div class="footer">
+          <div class="content">
+            John Mulhall (Maoltech) &copy; 2016
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

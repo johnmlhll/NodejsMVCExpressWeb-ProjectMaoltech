@@ -1,0 +1,28 @@
+<!--html page for the admin panel as a template-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body class="admin">
+      <div class="container">
+          <center><h1><strong>{{content}}</strong></h1></center>
+          <hr />
+        <div class="left list-column">
+          {{{list}}}
+        </div>
+        <div class="left form-column">
+          {{{form}}}
+        </div>
+        <br class="clear" />
+        <hr />
+        <div class="footer">
+          <ul class="admin-menu">
+              <a href="\">Logout</a>
+              <!--better logout from admin code needs to go here make a template V2 Upgrade-->
+          </ul>
+        </div>
+      </div>
+  </body>
+</html>

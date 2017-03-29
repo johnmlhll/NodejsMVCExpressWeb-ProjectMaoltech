@@ -1,0 +1,22 @@
+<!DOCTYPE html><!--form to log in site admins-->
+<html>
+  <head>
+      <title>{{title}}</title>
+      <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body class="admin">
+    <div class="container">
+      <ul class="admin-menu">
+        <a href="/">Back to 'Home Page'</a>
+      </ul>
+      <form action="/admin" method="post">
+        <h2>Admin Login - <u>*Authorised Personnel Only</u></h2>
+        Username: <br />
+        <input type="text" name="username" /><br />
+        Password: <br />
+        <input type="password", name="password" /><br /><br />
+        <input type="submit" value="Login" />
+      </form>
+    </div>
+  </body>
+</html>

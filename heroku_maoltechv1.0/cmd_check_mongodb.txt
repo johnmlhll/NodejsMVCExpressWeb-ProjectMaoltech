@@ -1,0 +1,2 @@
+ps -edaf | grep mongo # 
+//"ps" flags may differ on your OS
