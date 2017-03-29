@@ -1,0 +1,2 @@
+# NodejsMVCExpressWeb-ProjectMaoltech
+An mvc patterned Nodejs website that is backed by MongoDB. Its a static website for a information technology company using Nodejs, Expressjs and MongoDB. The 2016 project ran into 503 difficulties when trying to deploy on Heroku due to MongoDB provision on platform. Suspended the project due to my Higher Diploma in Science in Computing but will return to debug the project, fix MongoDB in the backend and deploy the site.
